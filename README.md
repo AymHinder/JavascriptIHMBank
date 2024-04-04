@@ -22,4 +22,4 @@ Création d'une IHM clavier de banque en JS
 
 ## Ressources
 
-Les deux programmes "Boutonfonction" ainsi que la documentation W3School : <https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_table_create>https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_table_create
+Les deux programmes "Boutonfonction" ainsi que la documentation W3School : <https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_table_create>
