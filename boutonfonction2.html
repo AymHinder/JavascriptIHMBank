@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+
+
+<script language="javascript">
+
+var valeur;
+valeur =""
+function bouton_appuye_coucou(feuille_mere) {
+document.feuille_mere.input.value = document.feuille_mere.input.value + document.feuille_mere.le_bouton_coucou.value
+valeur = valeur + " hello ";
+}
+
+function bouton_appuye_moi(feuille_mere) {
+document.feuille_mere.input.value = document.feuille_mere.input.value + document.feuille_mere.le_bouton_moi.value
+valeur = valeur + " it's me ";
+}
+
+function bouton_appuye_test(feuille_mere) {
+document.feuille_mere.resultat.value = valeur;
+}
+
+function bouton_appuye_change(feuille_mere){
+document.feuille_mere.le_bouton_coucou.value = "hello";
+}
+
+</SCRIPT>
+
+
+</HEAD>
+<BODY>
+<div align="center"><h1>Bouton et fonction</h1>
+
+<FORM NAME="feuille_mere">
+<div align="center"><INPUT TYPE="text" NAME="input" VALUE=" "> <BR></div>
+<div align="center"><INPUT TYPE="text" NAME="resultat" VALUE=" "> <BR></div>
+<div align="center">
+
+<INPUT TYPE="button" NAME="le_bouton_coucou" VALUE=" coucou " onClick="bouton_appuye_coucou(feuille_mere)"> <! partie html !>
+<INPUT TYPE="button" NAME="le_bouton_moi" VALUE=" c'est moi " onClick="bouton_appuye_moi(feuille_mere)">
+<BUTTON TYPE="button"  onClick="bouton_appuye_test(feuille_mere)">TEST</BUTTON>
+<BUTTON TYPE="button"  onClick="bouton_appuye_change(feuille_mere)">CHANGE</BUTTON>
+
+</div>
+</FORM>
+</BODY>
+</HTML>
